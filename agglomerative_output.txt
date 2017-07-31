@@ -1,0 +1,764 @@
+Ishwaryas-MBP:dm_project2 ishwarya$ python3 agglomerative.py 
+Variance of all features after PCA decomposition [  2.98798108e+00   1.65142025e+00   6.76400884e-01   6.40160284e-01
+   2.07482550e-01   1.00692573e-01   8.95651141e-03   1.47053858e-03
+   9.65766721e-07]
+Data after PCA decomposition 
+ [[ -1.43142469e+00  -1.10211499e+00]
+ [ -1.43670679e+00   3.43585271e-01]
+ [ -1.42732181e+00   3.45720096e-01]
+ [ -1.25782481e+00  -2.49059892e-01]
+ [ -1.31246639e+00  -1.84045081e-02]
+ [ -1.30186751e+00  -1.22404801e-01]
+ [ -1.23656984e+00  -7.80803914e-02]
+ [ -1.20334882e+00  -1.81721517e-01]
+ [ -1.10099202e+00   9.13737198e-03]
+ [ -1.07355552e+00  -3.04915327e-01]
+ [ -1.18786885e+00  -4.86357807e-02]
+ [ -1.01843362e+00  -5.30386710e-01]
+ [ -1.20019256e+00   3.23214812e-02]
+ [ -1.06407634e+00  -3.11407519e-01]
+ [ -1.01057468e+00  -4.68518202e-01]
+ [ -1.04904396e+00  -3.24178286e-01]
+ [ -9.39225701e-01  -6.78039662e-01]
+ [ -6.97628245e-01  -8.40650429e-01]
+ [ -7.80810191e-01  -5.85348726e-01]
+ [ -9.83003526e-01  -2.56515027e-01]
+ [ -9.48618596e-01  -4.40943658e-01]
+ [ -7.43642764e-01  -5.69988736e-01]
+ [ -8.91273232e-01  -6.41543459e-01]
+ [ -9.30690043e-01  -4.71300984e-01]
+ [ -9.77530002e-01  -2.04519466e-01]
+ [ -9.55523845e-01  -3.87215345e-01]
+ [ -9.59380374e-01  -2.25571573e-01]
+ [ -9.69669701e-01  -3.07346706e-01]
+ [ -9.26178352e-01  -4.72263898e-01]
+ [ -9.36572288e-01  -3.09759788e-01]
+ [ -8.60106379e-01  -5.96035356e-01]
+ [ -9.13664157e-01  -4.08717474e-01]
+ [ -8.82594208e-01  -4.13350376e-01]
+ [ -8.89493392e-01  -4.11542487e-01]
+ [ -7.98300562e-01  -6.22907804e-01]
+ [ -8.48822383e-01  -2.99187946e-01]
+ [ -7.29054857e-01  -3.65505778e-01]
+ [ -8.06709157e-01  -5.15417158e-01]
+ [ -4.12503795e-01  -1.17649140e+00]
+ [ -4.12503795e-01  -1.17649140e+00]
+ [ -7.70339807e-01  -6.07790354e-01]
+ [ -7.95879454e-01  -4.67563647e-01]
+ [ -7.90137750e-01  -2.72788873e-01]
+ [ -3.12734099e-01  -1.41461952e+00]
+ [ -7.21824321e-01  -5.92057644e-01]
+ [ -5.61453062e-01  -6.19050260e-01]
+ [ -6.17808215e-01  -4.69270915e-01]
+ [ -1.39729484e-01  -1.34096836e+00]
+ [ -7.61126842e-02  -1.69805672e+00]
+ [ -5.36714413e-01  -4.58732405e-01]
+ [ -1.18079655e-02  -1.61808404e+00]
+ [ -3.72975951e-01  -6.74781616e-01]
+ [ -1.15000735e-01  -1.98889551e-01]
+ [ -6.70077167e-02  -2.97682146e-01]
+ [ -7.54014782e-02  -2.00480876e-01]
+ [  1.72582166e-03  -3.31510479e-01]
+ [ -1.02844167e+00  -2.69690443e-01]
+ [ -9.73965882e-01  -3.31017163e-01]
+ [ -1.42854912e+00  -6.58844903e-03]
+ [ -1.20495135e+00  -1.84614548e-01]
+ [ -8.08268632e-01  -4.73962714e-01]
+ [ -7.65820044e-01  -2.85027993e-01]
+ [ -4.64359783e-01  -1.33824988e+00]
+ [ -2.98171501e-01  -1.27371910e+00]
+ [ -3.27354110e-01  -1.28486121e+00]
+ [ -3.40376437e-01  -9.51071946e-01]
+ [ -1.10210031e-01  -1.52312913e+00]
+ [ -1.10979413e-01  -1.50371988e+00]
+ [ -8.03496484e-02  -1.43049372e+00]
+ [  1.67240938e-01  -1.64128372e+00]
+ [ -1.74069265e+00   8.78470060e-01]
+ [ -1.30596575e+00  -3.76822534e-01]
+ [ -1.45358275e+00   1.62936100e-01]
+ [ -1.38523189e+00   1.98563617e-01]
+ [ -1.38857269e+00   1.20450103e-01]
+ [ -1.36137530e+00   6.36465994e-02]
+ [ -1.31890756e+00   3.46413841e-02]
+ [ -1.29744850e+00  -5.04956173e-02]
+ [ -1.30103945e+00   3.18026484e-01]
+ [ -1.29453988e+00   6.07867457e-02]
+ [ -1.28211835e+00   9.48650835e-02]
+ [ -1.32914487e+00   2.68330317e-01]
+ [ -1.24666873e+00   2.06213394e-02]
+ [ -1.25094050e+00   2.79218660e-02]
+ [ -1.58308099e+00   1.39005347e+00]
+ [ -1.16462148e+00  -6.26761303e-02]
+ [ -1.22343599e+00   1.39778381e-01]
+ [ -1.20240710e+00   9.76664415e-02]
+ [ -1.18747390e+00  -5.73245584e-02]
+ [ -1.19493087e+00  -3.66982083e-02]
+ [ -8.06923811e-01  -9.51319661e-01]
+ [ -1.03415246e+00  -1.52499489e-01]
+ [ -8.93424607e-01  -9.16162670e-02]
+ [ -9.85389338e-01   7.59824207e-02]
+ [ -9.96099834e-01  -7.30999362e-02]
+ [ -7.94944729e-01  -3.20328062e-01]
+ [ -6.05839319e-01  -9.55226540e-01]
+ [ -5.11617933e-01  -6.82314635e-01]
+ [ -4.61254461e-01   1.98908901e-02]
+ [ -3.34071698e-01  -1.73048293e-01]
+ [ -2.60070362e-01  -1.40050706e-01]
+ [  1.19265358e-01  -5.36190299e-01]
+ [  2.07443969e-01  -6.31737884e-01]
+ [  1.49260934e+00  -2.43962808e+00]
+ [  1.11541616e+00  -1.52309824e+00]
+ [  4.80594832e+00  -1.95264498e+00]
+ [  5.12134689e+00  -2.00049366e+00]
+ [  6.85461434e+00  -4.12476829e+00]
+ [  3.69912661e+00   9.25734921e-02]
+ [  3.30032881e+00   3.58852223e-01]
+ [  5.78487255e+00  -3.09619861e+00]
+ [  5.97165022e+00  -3.38303898e+00]
+ [  5.61865777e+00  -2.61183743e+00]
+ [ -1.36241112e+00  -2.40982884e-01]
+ [ -1.32524574e+00  -6.30260307e-01]
+ [ -1.34997583e+00  -3.55432518e-01]
+ [ -1.33870215e+00  -4.33682817e-01]
+ [ -1.45007143e+00   2.04558813e-01]
+ [ -1.34351862e+00  -1.88033911e-02]
+ [ -1.33761631e+00   1.38839912e-01]
+ [ -1.16961746e+00  -4.26423609e-01]
+ [ -1.27596499e+00  -4.99332098e-03]
+ [ -1.22269867e+00   7.16461529e-03]
+ [ -1.24133416e+00   2.10939841e-01]
+ [ -1.05205479e+00  -4.44820564e-01]
+ [ -1.00402966e+00  -4.98450515e-01]
+ [ -9.47984406e-01  -5.29275547e-01]
+ [  8.97802286e-01  -3.56568446e-01]
+ [  8.68130503e-01  -8.91949414e-03]
+ [  2.07561919e+00  -2.13068710e-01]
+ [  2.70061893e+00  -4.67493153e-01]
+ [  5.01225694e+00  -1.55802688e+00]
+ [ -1.51639787e+00  -3.26364524e-01]
+ [ -1.40943079e+00  -2.70022870e-01]
+ [ -1.43873582e+00  -2.08969804e-01]
+ [ -1.25613443e+00  -5.65289939e-01]
+ [ -1.24465263e+00  -4.59345928e-01]
+ [ -1.28031382e+00  -1.26260145e-01]
+ [ -1.36081148e+00   9.27410419e-02]
+ [ -1.32009017e+00   2.95630494e-02]
+ [ -1.21525578e+00   2.87578250e-02]
+ [ -1.09029818e+00  -3.34622664e-01]
+ [ -1.12693707e+00  -1.63942815e-01]
+ [ -1.11418864e+00  -2.85513618e-02]
+ [ -4.97696103e-01  -3.72352377e-01]
+ [ -9.42496877e-01  -6.86849334e-01]
+ [ -9.43752804e-01  -3.54949638e-01]
+ [ -1.06258567e+00  -1.58604042e-01]
+ [ -1.01659473e+00  -2.69560507e-01]
+ [ -9.41573039e-01  -6.96785076e-01]
+ [ -9.56048829e-01  -1.48633286e-01]
+ [ -4.95487517e-01  -1.09737170e+00]
+ [ -7.31546633e-01  -6.36643189e-01]
+ [ -9.81839296e-01  -7.00126278e-02]
+ [ -7.99036222e-01  -6.71105493e-01]
+ [ -8.06778342e-01  -3.16709290e-01]
+ [ -7.41816129e-01  -2.73531954e-01]
+ [ -3.12872682e-01  -1.23267414e+00]
+ [ -6.48025887e-01  -3.70984676e-01]
+ [ -5.92039554e-01  -3.61616468e-01]
+ [ -4.63154122e-01  -5.13566867e-01]
+ [ -6.67988028e-01  -5.54403042e-01]
+ [ -6.61716583e-01  -8.56992657e-01]
+ [ -1.90632461e+00   2.71891973e+00]
+ [  1.35972675e+00  -4.28364815e-01]
+ [  2.21008024e+00  -1.78348387e+00]
+ [  2.45360547e+00  -1.90804519e+00]
+ [  3.67487190e+00  -2.19156943e-01]
+ [  2.71532532e+00   8.40409716e-01]
+ [  3.54656328e+00   5.96675941e-02]
+ [  4.18448673e+00  -6.59309448e-01]
+ [  2.07573252e-01   3.08124317e+00]
+ [  1.84217954e-01   3.12929242e+00]
+ [  4.35082139e+00  -8.83311036e-01]
+ [  1.29488479e+00   3.33001405e-02]
+ [  3.28120211e+00  -2.43181711e-01]
+ [  6.73044632e-01  -9.65002993e-02]
+ [  7.70755756e-01  -3.34529225e-01]
+ [  5.81488554e-01   3.77061388e-01]
+ [  6.51697536e-01   2.86295467e-01]
+ [ -2.13311849e-01   2.05507069e+00]
+ [  2.12062080e+00   1.01008962e+00]
+ [  3.31701687e+00   6.62301572e-01]
+ [  3.47859694e+00   3.63723484e-01]
+ [  3.95814456e-01   4.62443073e+00]
+ [ -2.77132006e+00   2.49211743e+00]
+ [ -2.47105730e+00   2.35929747e+00]
+ [ -5.89356201e-01  -4.00535918e-01]
+ [  9.34293292e-01   3.12558577e-02]
+ [  5.63851102e-01   1.47999698e+00]
+ [  5.63658825e-01   1.11307691e+00]
+ [  1.94630491e+00   2.57035294e+00]
+ [  2.12158013e+00   2.23001490e+00]
+ [  1.84517271e+00   2.73603025e+00]
+ [  1.83056224e+00   2.70935161e+00]
+ [  2.14924190e+00   2.19729645e+00]
+ [  2.38097020e+00   1.86425206e+00]
+ [  2.07246078e+00   2.38898158e+00]
+ [  2.16685902e+00   2.22876969e+00]
+ [  1.99203318e+00   2.56210969e+00]
+ [  1.65742912e+00   2.95734417e+00]
+ [  1.68150585e+00   1.50852494e+00]
+ [  1.68708686e+00   2.87792369e+00]
+ [  1.68403890e+00   2.95320029e+00]
+ [  1.91100017e+00   2.62469500e+00]
+ [  1.89083214e+00   2.70126161e+00]
+ [  1.92078144e+00   2.66367876e+00]
+ [  4.19526213e-01   4.22137958e+00]
+ [  2.41931365e+00   1.94226850e+00]
+ [  2.27359551e+00   2.13126608e+00]
+ [  1.75889388e+00   2.89051859e+00]
+ [  1.77887835e+00   2.73133297e+00]
+ [  1.79589397e+00   2.71516839e+00]
+ [  1.90451734e+00   2.57907549e+00]]
+Compute structured hierarchical clustering
+Perform Agglomerative Clustering
+Parameter settings and data used complete,euclidean,PCA reduced 
+
+Elapsed time: 0.36s
+Labels:
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 3 1 0 0 1
+ 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 5 5 0 0 0 0 4 4 0 0 0 0 0 0 0 4 0 0 0 4
+ 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0]
+Number of points: 214
+
+Evaluation Metrics:
+Homogeneity: 0.085
+Completeness: 0.321
+V-measure: 0.135
+Adjusted Rand Index: 0.035
+Adjusted Mutual Information: 0.051
+Silhouette Coefficient: 0.336
+Purity score 0.9205607476635514
+###############################################################################
+Perform Agglomerative Clustering
+Parameter settings and data used complete,manhattan,PCA reduced 
+
+Elapsed time: 0.40s
+Labels:
+ [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 1 1 0 5 5 0
+ 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 1 3 3 5 1 5 1 2 2 1 1 5 1 1 1 1 2 1 5 5 2
+ 4 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 1]
+Number of points: 214
+
+Evaluation Metrics:
+Homogeneity: 0.110
+Completeness: 0.325
+V-measure: 0.164
+Adjusted Rand Index: 0.063
+Adjusted Mutual Information: 0.074
+Silhouette Coefficient: 0.347
+Purity score 0.8925233644859814
+###############################################################################
+Perform Agglomerative Clustering
+Parameter settings and data used ward,euclidean,PCA reduced 
+
+Elapsed time: 0.45s
+Labels:
+ [0 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 0 0 0 5 5 0 0 5 5 5 5 5 5 5 0 5 5 5 0 5 5
+ 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 5 5 5 5 0 5 0 0 0 0 0 0 0 0 5 5 5 5
+ 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 0 5 5 5 5 5 0 0 0 0 0 0 0 2 2 3 3 3 2 2 3
+ 3 3 5 5 5 5 5 5 5 5 5 5 5 5 5 5 0 0 2 2 3 5 5 5 5 5 5 5 5 5 5 5 5 0 0 5 5
+ 5 0 5 0 0 5 0 5 5 0 0 0 0 0 0 1 0 2 2 2 4 2 3 1 1 3 0 2 0 0 0 0 0 4 2 2 1
+ 1 1 0 0 0 0 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 1 4 4 4 4 4 4]
+Number of points: 214
+
+Evaluation Metrics:
+Homogeneity: 0.347
+Completeness: 0.377
+V-measure: 0.361
+Adjusted Rand Index: 0.235
+Adjusted Mutual Information: 0.318
+Silhouette Coefficient: 0.429
+Purity score 0.5981308411214953
+###############################################################################
+Perform Agglomerative Clustering
+Parameter settings and data used ward,euclidean,PCA reduced 
+
+Elapsed time: 0.49s
+Labels:
+ [0 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 0 0 0 5 5 0 0 5 5 5 5 5 5 5 0 5 5 5 0 5 5
+ 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 5 5 5 5 0 5 0 0 0 0 0 0 0 0 5 5 5 5
+ 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 0 5 5 5 5 5 0 0 0 0 0 0 0 2 2 3 3 3 2 2 3
+ 3 3 5 5 5 5 5 5 5 5 5 5 5 5 5 5 0 0 2 2 3 5 5 5 5 5 5 5 5 5 5 5 5 0 0 5 5
+ 5 0 5 0 0 5 0 5 5 0 0 0 0 0 0 1 0 2 2 2 4 2 3 1 1 3 0 2 0 0 0 0 0 4 2 2 1
+ 1 1 0 0 0 0 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 1 4 4 4 4 4 4]
+Number of points: 214
+
+Evaluation Metrics:
+Homogeneity: 0.347
+Completeness: 0.377
+V-measure: 0.361
+Adjusted Rand Index: 0.235
+Adjusted Mutual Information: 0.318
+Silhouette Coefficient: 0.429
+Purity score 0.5981308411214953
+###############################################################################
+Perform Agglomerative Clustering
+Parameter settings and data used average,euclidean,PCA reduced 
+
+Elapsed time: 0.53s
+Labels:
+ [2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 4 4 0 0 3 2 2 0
+ 0 0 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 0 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 5 2 4 4 2 2 2 2 1 1 2 2 2 2 2 2 2 1 2 2 2 1
+ 5 5 2 2 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 2 2 2 2 2 2]
+Number of points: 214
+
+Evaluation Metrics:
+Homogeneity: 0.089
+Completeness: 0.289
+V-measure: 0.136
+Adjusted Rand Index: 0.038
+Adjusted Mutual Information: 0.055
+Silhouette Coefficient: 0.320
+Purity score 0.9018691588785047
+###############################################################################
+Perform Agglomerative Clustering
+Parameter settings and data used average,manhattan,PCA reduced 
+
+Elapsed time: 0.58s
+Labels:
+ [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 1 0 0 3 1 1 0
+ 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 1 4 4 1 1 1 1 2 2 1 1 1 1 1 1 1 2 1 1 1 2
+ 5 5 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 1]
+Number of points: 214
+
+Evaluation Metrics:
+Homogeneity: 0.083
+Completeness: 0.302
+V-measure: 0.130
+Adjusted Rand Index: 0.033
+Adjusted Mutual Information: 0.050
+Silhouette Coefficient: 0.336
+Purity score 0.9158878504672897
+###############################################################################
+Perform Agglomerative Clustering
+Parameter settings and data used complete,euclidean,Normalized 
+
+Elapsed time: 0.63s
+Labels:
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 3 2 0 0 2
+ 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 5
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+Number of points: 214
+
+Evaluation Metrics:
+Homogeneity: 0.056
+Completeness: 0.338
+V-measure: 0.097
+Adjusted Rand Index: 0.009
+Adjusted Mutual Information: 0.029
+Silhouette Coefficient: 0.496
+Purity score 0.9532710280373832
+###############################################################################
+Perform Agglomerative Clustering
+Parameter settings and data used complete,manhattan,Normalized 
+
+Elapsed time: 0.68s
+Labels:
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 4 0 0 4
+ 4 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 3 3 0 0 0 0 0 0 0 0 0 0 0 2
+ 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+Number of points: 214
+
+Evaluation Metrics:
+Homogeneity: 0.060
+Completeness: 0.323
+V-measure: 0.101
+Adjusted Rand Index: 0.018
+Adjusted Mutual Information: 0.030
+Silhouette Coefficient: 0.447
+Purity score 0.9485981308411215
+###############################################################################
+Perform Agglomerative Clustering
+Parameter settings and data used ward,euclidean,Normalized 
+
+Elapsed time: 0.72s
+Labels:
+ [4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 2 4 4 4 2 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4
+ 4 2 2 4 4 4 2 4 4 4 2 2 4 2 4 4 4 4 4 4 4 4 4 4 4 2 2 2 2 2 2 2 2 4 4 4 4
+ 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 2 2 5 5 5 3 3 5
+ 5 5 4 4 4 4 4 4 4 4 4 4 4 4 4 4 2 2 3 3 3 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4
+ 4 4 4 2 4 4 4 4 4 2 4 4 4 4 2 0 2 3 3 3 3 3 3 0 0 3 2 3 2 2 2 2 1 3 3 3 1
+ 0 0 4 2 2 2 1 1 1 1 1 1 1 1 1 1 3 1 1 1 1 1 1 1 1 1 1 1 1]
+Number of points: 214
+
+Evaluation Metrics:
+Homogeneity: 0.357
+Completeness: 0.441
+V-measure: 0.395
+Adjusted Rand Index: 0.262
+Adjusted Mutual Information: 0.329
+Silhouette Coefficient: 0.464
+Purity score 0.7616822429906542
+###############################################################################
+Perform Agglomerative Clustering
+Parameter settings and data used ward,euclidean,Normalized 
+
+Elapsed time: 0.76s
+Labels:
+ [4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 2 4 4 4 2 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4
+ 4 2 2 4 4 4 2 4 4 4 2 2 4 2 4 4 4 4 4 4 4 4 4 4 4 2 2 2 2 2 2 2 2 4 4 4 4
+ 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 2 2 5 5 5 3 3 5
+ 5 5 4 4 4 4 4 4 4 4 4 4 4 4 4 4 2 2 3 3 3 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4
+ 4 4 4 2 4 4 4 4 4 2 4 4 4 4 2 0 2 3 3 3 3 3 3 0 0 3 2 3 2 2 2 2 1 3 3 3 1
+ 0 0 4 2 2 2 1 1 1 1 1 1 1 1 1 1 3 1 1 1 1 1 1 1 1 1 1 1 1]
+Number of points: 214
+
+Evaluation Metrics:
+Homogeneity: 0.357
+Completeness: 0.441
+V-measure: 0.395
+Adjusted Rand Index: 0.262
+Adjusted Mutual Information: 0.329
+Silhouette Coefficient: 0.464
+Purity score 0.7616822429906542
+###############################################################################
+Perform Agglomerative Clustering
+Parameter settings and data used average,euclidean,Normalized 
+
+Elapsed time: 0.80s
+Labels:
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 5 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 4
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0]
+Number of points: 214
+
+Evaluation Metrics:
+Homogeneity: 0.040
+Completeness: 0.355
+V-measure: 0.072
+Adjusted Rand Index: 0.015
+Adjusted Mutual Information: 0.016
+Silhouette Coefficient: 0.449
+Purity score 0.9719626168224299
+###############################################################################
+Perform Agglomerative Clustering
+Parameter settings and data used average,manhattan,Normalized 
+
+Elapsed time: 0.85s
+Labels:
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 5 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 3
+ 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+Number of points: 214
+
+Evaluation Metrics:
+Homogeneity: 0.050
+Completeness: 0.350
+V-measure: 0.087
+Adjusted Rand Index: 0.024
+Adjusted Mutual Information: 0.023
+Silhouette Coefficient: 0.426
+Purity score 0.9626168224299065
+###############################################################################
+Perform Agglomerative Clustering
+Parameter settings and data used complete,euclidean,Binarized 
+
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/cluster/hierarchical.py:418: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_components = _fix_connectivity(X, connectivity)
+Elapsed time: 0.97s
+Labels:
+ [2 4 4 4 4 4 4 2 4 4 4 4 4 4 4 4 4 2 4 4 4 2 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4
+ 4 2 2 4 4 4 2 4 4 4 2 2 4 2 4 4 4 4 4 4 4 4 4 4 4 2 2 2 4 2 2 2 2 4 4 4 4
+ 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 2 4 4 4 4 4 2 2 4 0 0 0 0 0 0
+ 0 0 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 0 0 4 4 4 4 2 4 4 4 4 2 4 4 4 4 4 4
+ 4 4 4 2 2 4 4 4 4 2 4 4 4 2 2 1 4 4 4 0 0 0 0 0 0 0 4 0 4 4 4 4 4 0 0 0 0
+ 1 1 4 4 5 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0]
+Number of points: 214
+
+Evaluation Metrics:
+Homogeneity: 0.219
+Completeness: 0.338
+V-measure: 0.266
+Adjusted Rand Index: 0.174
+Adjusted Mutual Information: 0.192
+Silhouette Coefficient: 0.845
+Purity score 0.7523364485981309
+###############################################################################
+Perform Agglomerative Clustering
+Parameter settings and data used complete,manhattan,Binarized 
+
+Elapsed time: 1.04s
+Labels:
+ [2 4 4 4 4 4 4 2 4 4 4 4 4 4 4 4 4 2 4 4 4 2 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4
+ 4 2 2 4 4 4 2 4 4 4 2 2 4 2 4 4 4 4 4 4 4 4 4 4 4 2 2 2 4 2 2 2 2 4 4 4 4
+ 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 2 4 4 4 4 4 2 2 4 0 0 0 0 0 0
+ 0 0 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 0 0 4 4 4 4 2 4 4 4 4 2 4 4 4 4 4 4
+ 4 4 4 2 2 4 4 4 4 2 4 4 4 2 2 1 4 4 4 0 0 0 0 0 0 0 4 0 4 4 4 4 4 0 0 0 0
+ 1 1 4 4 5 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0]
+Number of points: 214
+
+Evaluation Metrics:
+Homogeneity: 0.219
+Completeness: 0.338
+V-measure: 0.266
+Adjusted Rand Index: 0.174
+Adjusted Mutual Information: 0.192
+Silhouette Coefficient: 0.845
+Purity score 0.7523364485981309
+###############################################################################
+Perform Agglomerative Clustering
+Parameter settings and data used ward,euclidean,Binarized 
+
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/cluster/hierarchical.py:193: UserWarning: the number of connected components of the connectivity matrix is 3 > 1. Completing it to avoid stopping the tree early.
+  connectivity, n_components = _fix_connectivity(X, connectivity)
+Elapsed time: 1.12s
+Labels:
+ [2 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 2 1 1 1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 2 2 1 1 1 2 1 1 1 2 2 1 2 1 1 1 1 1 1 1 1 1 1 1 2 2 2 1 2 2 2 2 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 2 2 1 3 5 4 4 4 4
+ 4 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 1 1 1 1 2 1 1 1 1 2 1 1 1 1 1 1
+ 1 1 1 2 2 1 1 1 1 2 1 1 1 2 2 0 1 1 1 3 3 3 3 0 0 3 1 3 1 1 1 1 1 3 3 4 4
+ 0 0 1 1 0 1 3 3 5 5 3 3 3 3 3 3 0 3 5 3 5 5 0 3 3 5 5 5 5]
+Number of points: 214
+
+Evaluation Metrics:
+Homogeneity: 0.267
+Completeness: 0.343
+V-measure: 0.300
+Adjusted Rand Index: 0.178
+Adjusted Mutual Information: 0.234
+Silhouette Coefficient: 0.966
+Purity score 0.6962616822429907
+###############################################################################
+Perform Agglomerative Clustering
+Parameter settings and data used ward,euclidean,Binarized 
+
+Elapsed time: 1.19s
+Labels:
+ [2 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 2 1 1 1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 2 2 1 1 1 2 1 1 1 2 2 1 2 1 1 1 1 1 1 1 1 1 1 1 2 2 2 1 2 2 2 2 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 2 2 1 3 5 4 4 4 4
+ 4 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 1 1 1 1 2 1 1 1 1 2 1 1 1 1 1 1
+ 1 1 1 2 2 1 1 1 1 2 1 1 1 2 2 0 1 1 1 3 3 3 3 0 0 3 1 3 1 1 1 1 1 3 3 4 4
+ 0 0 1 1 0 1 3 3 5 5 3 3 3 3 3 3 0 3 5 3 5 5 0 3 3 5 5 5 5]
+Number of points: 214
+
+Evaluation Metrics:
+Homogeneity: 0.267
+Completeness: 0.343
+V-measure: 0.300
+Adjusted Rand Index: 0.178
+Adjusted Mutual Information: 0.234
+Silhouette Coefficient: 0.966
+Purity score 0.6962616822429907
+###############################################################################
+Perform Agglomerative Clustering
+Parameter settings and data used average,euclidean,Binarized 
+
+Elapsed time: 1.26s
+Labels:
+ [2 4 4 4 4 4 4 2 4 4 4 4 4 4 4 4 4 2 4 4 4 2 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4
+ 4 2 2 4 4 4 2 4 4 4 2 2 4 2 4 4 4 4 4 4 4 4 4 4 4 2 2 2 4 2 2 2 2 4 4 4 4
+ 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 2 4 4 4 4 4 2 2 4 0 0 0 0 0 0
+ 0 0 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 0 0 4 4 4 4 2 4 4 4 4 2 4 4 4 4 4 4
+ 4 4 4 2 2 4 4 4 4 2 4 4 4 2 2 1 4 4 4 0 0 0 0 0 0 0 4 0 4 4 4 4 4 0 0 0 0
+ 1 1 4 4 5 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0]
+Number of points: 214
+
+Evaluation Metrics:
+Homogeneity: 0.219
+Completeness: 0.338
+V-measure: 0.266
+Adjusted Rand Index: 0.174
+Adjusted Mutual Information: 0.192
+Silhouette Coefficient: 0.845
+Purity score 0.7523364485981309
+###############################################################################
+Perform Agglomerative Clustering
+Parameter settings and data used average,manhattan,Binarized 
+
+Elapsed time: 1.34s
+Labels:
+ [2 4 4 4 4 4 4 2 4 4 4 4 4 4 4 4 4 2 4 4 4 2 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4
+ 4 2 2 4 4 4 2 4 4 4 2 2 4 2 4 4 4 4 4 4 4 4 4 4 4 2 2 2 4 2 2 2 2 4 4 4 4
+ 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 2 4 4 4 4 4 2 2 4 0 0 0 0 0 0
+ 0 0 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 0 0 4 4 4 4 2 4 4 4 4 2 4 4 4 4 4 4
+ 4 4 4 2 2 4 4 4 4 2 4 4 4 2 2 1 4 4 4 0 0 0 0 0 0 0 4 0 4 4 4 4 4 0 0 0 0
+ 1 1 4 4 5 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0]
+Number of points: 214
+
+Evaluation Metrics:
+Homogeneity: 0.219
+Completeness: 0.338
+V-measure: 0.266
+Adjusted Rand Index: 0.174
+Adjusted Mutual Information: 0.192
+Silhouette Coefficient: 0.845
+Purity score 0.7523364485981309
+###############################################################################
+Perform Agglomerative Clustering
+Parameter settings and data used complete,euclidean,Low variance feature removed 
+
+Elapsed time: 1.39s
+Labels:
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 3 2 0 0 2
+ 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 5
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+Number of points: 214
+
+Evaluation Metrics:
+Homogeneity: 0.056
+Completeness: 0.338
+V-measure: 0.097
+Adjusted Rand Index: 0.009
+Adjusted Mutual Information: 0.029
+Silhouette Coefficient: 0.497
+Purity score 0.9532710280373832
+###############################################################################
+Perform Agglomerative Clustering
+Parameter settings and data used complete,manhattan,Low variance feature removed 
+
+Elapsed time: 1.44s
+Labels:
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 4 0 0 4
+ 4 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 3 3 0 0 0 0 0 0 0 0 0 0 0 2
+ 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+Number of points: 214
+
+Evaluation Metrics:
+Homogeneity: 0.060
+Completeness: 0.323
+V-measure: 0.101
+Adjusted Rand Index: 0.018
+Adjusted Mutual Information: 0.030
+Silhouette Coefficient: 0.447
+Purity score 0.9485981308411215
+###############################################################################
+Perform Agglomerative Clustering
+Parameter settings and data used ward,euclidean,Low variance feature removed 
+
+Elapsed time: 1.48s
+Labels:
+ [4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 2 4 4 4 2 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4
+ 4 2 2 4 4 4 2 4 4 4 2 2 4 2 4 4 4 4 4 4 4 4 4 4 4 2 2 2 2 2 2 2 2 4 4 4 4
+ 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 2 2 5 5 5 3 3 5
+ 5 5 4 4 4 4 4 4 4 4 4 4 4 4 4 4 2 2 3 3 3 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4
+ 4 4 4 2 4 4 4 4 4 2 4 4 4 4 2 0 2 3 3 3 3 3 3 0 0 3 2 3 2 2 2 2 1 3 3 3 1
+ 0 0 4 2 2 2 1 1 1 1 1 1 1 1 1 1 3 1 1 1 1 1 1 1 1 1 1 1 1]
+Number of points: 214
+
+Evaluation Metrics:
+Homogeneity: 0.357
+Completeness: 0.441
+V-measure: 0.395
+Adjusted Rand Index: 0.262
+Adjusted Mutual Information: 0.329
+Silhouette Coefficient: 0.465
+Purity score 0.7616822429906542
+###############################################################################
+Perform Agglomerative Clustering
+Parameter settings and data used ward,euclidean,Low variance feature removed 
+
+Elapsed time: 1.53s
+Labels:
+ [4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 2 4 4 4 2 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4
+ 4 2 2 4 4 4 2 4 4 4 2 2 4 2 4 4 4 4 4 4 4 4 4 4 4 2 2 2 2 2 2 2 2 4 4 4 4
+ 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 2 2 5 5 5 3 3 5
+ 5 5 4 4 4 4 4 4 4 4 4 4 4 4 4 4 2 2 3 3 3 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4
+ 4 4 4 2 4 4 4 4 4 2 4 4 4 4 2 0 2 3 3 3 3 3 3 0 0 3 2 3 2 2 2 2 1 3 3 3 1
+ 0 0 4 2 2 2 1 1 1 1 1 1 1 1 1 1 3 1 1 1 1 1 1 1 1 1 1 1 1]
+Number of points: 214
+
+Evaluation Metrics:
+Homogeneity: 0.357
+Completeness: 0.441
+V-measure: 0.395
+Adjusted Rand Index: 0.262
+Adjusted Mutual Information: 0.329
+Silhouette Coefficient: 0.465
+Purity score 0.7616822429906542
+###############################################################################
+Perform Agglomerative Clustering
+Parameter settings and data used average,euclidean,Low variance feature removed 
+
+Elapsed time: 1.57s
+Labels:
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 5 2 0 0 2
+ 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 3
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0]
+Number of points: 214
+
+Evaluation Metrics:
+Homogeneity: 0.053
+Completeness: 0.319
+V-measure: 0.091
+Adjusted Rand Index: 0.007
+Adjusted Mutual Information: 0.026
+Silhouette Coefficient: 0.483
+Purity score 0.9532710280373832
+###############################################################################
+Perform Agglomerative Clustering
+Parameter settings and data used average,manhattan,Low variance feature removed 
+
+Elapsed time: 1.62s
+Labels:
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 3
+ 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0]
+Number of points: 214
+
+Evaluation Metrics:
+Homogeneity: 0.053
+Completeness: 0.372
+V-measure: 0.093
+Adjusted Rand Index: 0.030
+Adjusted Mutual Information: 0.026
+Silhouette Coefficient: 0.402
+Purity score 0.9626168224299065
+###############################################################################
+Perform Agglomerative Clustering
+Parameter settings and data used average, euclidean & normalized 
+
+Elapsed time: 1.67s
+Labels:
+ [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 5 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 4
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0]
+Number of points: 214
