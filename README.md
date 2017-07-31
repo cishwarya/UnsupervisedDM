@@ -1,5 +1,5 @@
 # Unsupervised Learning - Clustering algorithm Implementation on Glass Identification Dataset
-===================================================================================================
+
 Dataset: https://archive.ics.uci.edu/ml/machine-learning-databases/glass/
 
 In this project, following clustering algorithms are implemented using Python sklearn library on the Glass identification dataset.
